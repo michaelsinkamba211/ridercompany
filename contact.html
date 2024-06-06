@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rider company ltd</title>
+    
+     <!-- Link to the main stylesheet -->
+     <link rel="stylesheet" href="styles.css">
+ 
+     <!-- Link to google-fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <!-- Link to fontawesome cdn-icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FWTFEQ8MB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FWTFEQ8MB');
+</script>
+
+</head>
+<body>
+     <section class="sub-header">
+        <nav>
+      <a href="index.html"><img src="images/logo1.png" alt="rider logo1"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="masterways.html">Masterways</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+      </div> 
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+      <h1>Contact Us</h1>
+
+     </section>
+
+     <!--Contact Us-->
+
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-home"></i>
+                    <span>
+                        <h5>Room no. 2 Bornwell<br> 
+                            sikaonga   Estate
+                        </h5>
+                        <p> Nakonde, Muchinga, Zambia.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+260 979 395 361
+                        </h5>
+                        <p>Monday to Sunday 08AM to 05PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@ridercompanyltd
+                        </h5>
+                        <p>Email us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+<form action="form-handler.php" method="post">
+    <input type="text" name="name" placeholder="Enter your Name " required>
+    <input type="email" name="email" placeholder="Enter your Email address " required>
+    <input type="text" name="subject" placeholder="Enter your Subject " required>
+    <textarea type="text"  name="message" placeholder="Message" rows="8" required></textarea>
+    <button type="submit" class="home-btn blue-btn">SEND MESSAGE</button>
+</form>
+            </div>
+        </div>
+    </section>
+
+
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.1755285289128!2d32.75987197415222!3d-9.
+        317710290755594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19073f002f06441d%3A0x2a45e0300dee5044!2sRider%20Company%20ltd!
+        5e0!3m2!1sen!2szm!4v1716115701938!5m2!1sen!2szm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+     <!--JavaScript for toggle menu-->
+<script>
+
+function showMenu() {
+            document.getElementById("navLinks").style.display = "block";
+        }
+
+        function hideMenu() {
+            document.getElementById("navLinks").style.display = "none";
+        }
+    
+    </script>
+    
+    
+<!--Footer-->
+
+<footer class="footer">
+    <div class="content">
+        <div class="box">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="services.html">our services</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Masterways</h4>
+                <ul>
+                    <li><a href="masterways.html">clearing</a></li>
+                    <li><a href="services.html">Logistics</a></li>
+                    <li><a href="masterways.html">Printing</a></li>
+                    <li><a href="masterways.html">Design</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#">Phone:0979395361</a></li>
+                    <li><a href="#">info@ridercompanyltd</a></li>
+                    <li><a href="#">Developers|HopeGS</a></li>
+                    <li><a href="#">Artech Solutions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyrights-text">
+ <p>Copyright  2024 Rider Company ltd. Developer| Gs-Tech</p>
+</div>
+</body>
+</html>
